@@ -1,0 +1,55 @@
+@font-face{
+	font-family: scriptina;
+	src: url(../fonts/scriptina/scriptina.ttf);
+}
+@font-face{
+	font-family: alegreya;
+	src: url(../fonts/alegreya/alegreya_regular.ttf);
+}
+.content {
+	width: 100%;
+	max-width: 1366px;
+}
+header{
+	width: 100%; 
+	background: url(../img/header.jpg);
+
+}
+nav{
+	width: calc(100% - 340px);
+	background-color: RGBA(86,83,76,0.53);
+	padding: 0 170px;
+}
+nav div, nav ul, nav ul li{
+	display: inline-block;	
+}
+nav > div > a {
+	font-family: scriptina;
+	font-size: 30px;
+	color: #ffffff;
+	text-decoration: none;
+	float: left;
+}
+nav > ul > li > a {
+	font-family: alegreya;
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+nav > ul > li {
+	font-family: alegreya;
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+.social_networks{
+	float:right;
+}
+.social_networks li a {
+	color: #ffffff;
+	font-size: 16px;
+}
